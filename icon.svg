@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180">
+  <!-- sky, then the garden as a 3x3 checkerboard; a honey-drop trail leads the bee from her mat to a pink flower -->
+  <rect width="180" height="180" fill="#9ED8F7"/>
+  <rect x="14" y="20" width="152" height="146" rx="16" fill="#5d9c3f"/>
+  <g>
+    <rect x="22" y="28" width="44" height="42" rx="6" fill="#a2e67e"/><rect x="68" y="28" width="44" height="42" rx="6" fill="#6cc94a"/><rect x="114" y="28" width="44" height="42" rx="6" fill="#a2e67e"/>
+    <rect x="22" y="72" width="44" height="42" rx="6" fill="#6cc94a"/><rect x="68" y="72" width="44" height="42" rx="6" fill="#a2e67e"/><rect x="114" y="72" width="44" height="42" rx="6" fill="#6cc94a"/>
+    <rect x="22" y="116" width="44" height="42" rx="6" fill="#a2e67e"/><rect x="68" y="116" width="44" height="42" rx="6" fill="#6cc94a"/><rect x="114" y="116" width="44" height="42" rx="6" fill="#a2e67e"/>
+  </g>
+  <g fill="#ffb703"><circle cx="90" cy="137" r="5"/><circle cx="136" cy="137" r="5"/><circle cx="136" cy="93" r="5"/></g>
+  <!-- flower -->
+  <g transform="translate(136 49)">
+    <g fill="#ff6fa8"><ellipse cx="0" cy="-12" rx="8" ry="11"/><ellipse cx="0" cy="12" rx="8" ry="11"/><ellipse cx="-12" cy="0" rx="11" ry="8"/><ellipse cx="12" cy="0" rx="11" ry="8"/>
+      <ellipse cx="-9" cy="-9" rx="7" ry="9" transform="rotate(-45 -9 -9)"/><ellipse cx="9" cy="9" rx="7" ry="9" transform="rotate(-45 9 9)"/><ellipse cx="9" cy="-9" rx="7" ry="9" transform="rotate(45 9 -9)"/><ellipse cx="-9" cy="9" rx="7" ry="9" transform="rotate(45 -9 9)"/></g>
+    <circle r="9" fill="#ffcc33"/><circle cx="-3" cy="-1.5" r="1.6" fill="#2b2b3a"/><circle cx="3" cy="-1.5" r="1.6" fill="#2b2b3a"/><path d="M-3.5 2.5q3.5 3 7 0" fill="none" stroke="#2b2b3a" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+  <!-- the bee on her honeycomb mat -->
+  <polygon points="44,121 60,130 60,148 44,157 28,148 28,130" fill="#ffd166"/>
+  <g transform="translate(44 134)">
+    <ellipse cx="-13" cy="-15" rx="12" ry="8" fill="#e3f6ff" stroke="#8fb8cc" stroke-width="2" transform="rotate(-30 -13 -15)"/>
+    <ellipse cx="13" cy="-15" rx="12" ry="8" fill="#e3f6ff" stroke="#8fb8cc" stroke-width="2" transform="rotate(30 13 -15)"/>
+    <circle r="19" fill="#FFC93C"/>
+    <clipPath id="b"><circle r="19"/></clipPath>
+    <g clip-path="url(#b)" stroke="#2B2B3A" stroke-width="6"><path d="M-20 -7h40M-20 6h40"/></g>
+    <circle r="19" fill="none" stroke="#2B2B3A" stroke-width="2.5"/>
+    <circle cx="-6.5" cy="-1" r="5" fill="#fff"/><circle cx="6.5" cy="-1" r="5" fill="#fff"/>
+    <circle cx="-5.5" cy="0" r="2.6" fill="#2B2B3A"/><circle cx="7.5" cy="0" r="2.6" fill="#2B2B3A"/>
+    <path d="M-5 9q5 4 10 0" fill="none" stroke="#2B2B3A" stroke-width="2.4" stroke-linecap="round"/>
+  </g>
+</svg>
